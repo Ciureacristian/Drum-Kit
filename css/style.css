@@ -60,3 +60,19 @@ span{
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+
+  .keys {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .key {
+    width: 80%;
+    margin: 1rem auto;
+  }
+}
